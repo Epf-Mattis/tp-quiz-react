@@ -1,0 +1,25 @@
+/* styles.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Pour centrer le contenu horizontalement */
+  h1, p, button {
+    text-align: center;
+  }
+  
+  /* Styles pour les boutons */
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 8px;
+  }
+  
+  .selected {
+    background-color: lightblue;
+  }
+  
